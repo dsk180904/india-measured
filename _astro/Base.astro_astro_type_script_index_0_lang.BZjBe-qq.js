@@ -1,0 +1,1 @@
+import"./charts.DQM9c45d.js";document.getElementById(`theme`)?.addEventListener(`click`,()=>{let e=document.documentElement,t=e.dataset.theme?e.dataset.theme===`dark`:matchMedia(`(prefers-color-scheme: dark)`).matches;e.dataset.theme=t?`light`:`dark`;try{localStorage.setItem(`theme`,e.dataset.theme)}catch{}});
